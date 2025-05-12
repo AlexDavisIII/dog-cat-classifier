@@ -23,7 +23,7 @@ Upload an image of a dog or a cat, and the model will predict which one it is!
 - Requests
 
 ## Live Demo
-[Click here to try it live!]([url](https://dog-cat-classifier-pcmdcvn3pomzjq5gqz2mcn.streamlit.app/))
+[Click here to try it live!]([url](https://dog-cat-classifier-pcmdcvn3pomzjq5gqz2mcn.streamlit.app/)) : https://dog-cat-classifier-pcmdcvn3pomzjq5gqz2mcn.streamlit.app/
 
 ## License
 MIT License
