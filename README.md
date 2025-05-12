@@ -1,6 +1,6 @@
 # Image Classifier: Dog or Cat
 
-A simple image classifier web app built using [Azure Custom Vision]([url](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/)) and Streamlit on [Streamlit]([url](https://streamlit.io/)).  
+A simple image classifier web app built using [Azure Custom Vision]([url](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/)) and [Streamlit]([url](https://streamlit.io/)).  
 
 Upload an image of a dog or a cat, and the model will predict which one it is!
 
