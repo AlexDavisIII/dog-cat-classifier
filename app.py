@@ -5,13 +5,18 @@ import io
 
 
 # === SET THESE VARIABLES FROM YOUR AZURE PROJECT ===
-prediction_key = "7S4G8hy2Jxm5IxVOx2W0EDl9C1rdRWeXsEoVzoPMgA6cCXxuh2juJQQJ99BEACHYHv6XJ3w3AAAIACOGlQm4"
-endpoint = "https://dogcatclassifier-prediction.cognitiveservices.azure.com"  # e.g., https://<region>.api.cognitive.microsoft.com
-project_id = "3e9cb624-99f1-44a7-b577-92b8191abfb9"
-published_name = "Iteration1"
+#prediction_key = "7S4G8hy2Jxm5IxVOx2W0EDl9C1rdRWeXsEoVzoPMgA6cCXxuh2juJQQJ99BEACHYHv6XJ3w3AAAIACOGlQm4"
+#endpoint = "https://dogcatclassifier-prediction.cognitiveservices.azure.com"  # e.g., https://<region>.api.cognitive.microsoft.com
+#project_id = "3e9cb624-99f1-44a7-b577-92b8191abfb9"
+#published_name = "Iteration1"
+
+prediction_key = st.secrets["api"]["prediction_key"]
+endpoint = st.secrets["api"]["endpoint"]
+project_id = st.secrets["api"]["project_id"]
+published_name = st.secrets["api"]["published_name"]
 
 # Streamlit UI
-st.title("Custom Image Classifier")
+st.title("Image Classifier: Dog or Cat")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png"])
 
